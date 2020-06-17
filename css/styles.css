@@ -1,0 +1,182 @@
+/* *********************TAG SELECTORS******************** */
+
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+
+}
+
+div{
+  /* background-color: #e3fdfd; */
+}
+
+h1{
+  margin: 50px 0 auto 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+}
+
+hr{
+  height: 0px;
+  border-style: none;
+  border-top: 8px dotted lightgrey;
+  width: 5%;
+  margin: 75px auto;
+}
+
+/* *********************CLASS SELECTORS******************** */
+
+.top-container{
+  background-color: #EAF6F6;
+  text-align: center;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.subtitle{
+  font-weight: normal;
+}
+
+.profile-pic{
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+.middle-container{
+  padding: 50px 0;
+  /* bottom: ;ackground-color: #cbf1f5; */
+}
+
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.img-web-development{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.img-machine-learning{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-container{
+  padding: 30px;
+  background-color: #66BFBF;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.mountain{
+  vertical-align: middle;
+}
+
+.contact-me{
+  width: 50%;
+  line-height: 2;
+  margin: auto;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #25cccc 5%, #0f8787 100%);
+	background-color:#25cccc;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:5px 32px;
+	text-decoration:none;
+  margin: 30px auto;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0f8787 5%, #25cccc 100%);
+	background-color:#0f8787;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.footer-link{
+  margin: 40px;
+  line-height: 3;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  color: #EAF6F6;
+}
+
+/* .web-development-description{
+  clear: left;
+} */
+
+
+/* .top-container{
+  background-color: #e3fdfd;
+  width: 200px;
+  height: 200px;
+  border: 10px;
+  border-style: solid;
+  border-color: black;
+  padding: 20px;
+
+}
+
+.middle-container{
+  background-color: #71c9ce;
+  margin-left: 260px;
+  border: 20px;
+  border-style: solid;
+  border-color: black;
+  width: 200px;
+  height: 200px;
+}
+
+.bottom-container{
+  background-color: #e3fdfd;
+  border: 10px;
+  border-style: solid;
+  border-color: black;
+  margin-left: 500px;
+  width: 200px;
+  height: 200px;
+} */
